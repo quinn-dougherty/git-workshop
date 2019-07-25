@@ -41,9 +41,17 @@ def inc6(x: int) -> str:
     return None
 
 def inc7(x: int) -> str: 
+    return str(x + 7)
+
+def inc8(x: int) -> str: 
     ''' TODO takes an int, adds 7 to it, and casts it to string ''' 
     # TODO
     return None
+
+def inc9(x: int) -> str: 
+    ''' TODO takes an int, adds 7 to it, and casts it to string ''' 
+    # TODO
+    return str(x + 9)
 
 if __name__=='__main__': 
     print(str(inc1(inc5(0))), inc6(0))
