@@ -1,4 +1,4 @@
-''' ''' 
+00''' ''' 
 
 def is_zero(x: int) -> bool: 
     ''' TODO takes an int, returns true if it's zero, false otherwise'''
@@ -31,9 +31,8 @@ def inc4(x: int) -> int:
     return None
 
 def inc5(x: int) -> int: 
-    ''' TODO takes an int and adds 5 to it ''' 
-    # TODO
-    return None
+    ''' takes an int and adds 5 to it ''' 
+    return x + 5
 
 def inc6(x: int) -> str: 
     ''' TODO takes an int, adds 6 to it, and casts it to string''' 
